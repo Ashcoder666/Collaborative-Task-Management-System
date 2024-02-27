@@ -1,11 +1,11 @@
-import sequelize from "../../config/db";
-const dbConnection = async()=>{
-    try {
-        await sequelize.authenticate();
-        console.log('Connection has been established successfully.');
-      } catch (error) {
-        console.error('Unable to connect to the database:', error);
-      }
-}
+// import sequelize from "../config/db";
+// const dbConnection = async()=>{
+//     try {
+//         await sequelize.authenticate();
+//         console.log('Connection has been established successfully.');
+//       } catch (error) {
+//         console.error('Unable to connect to the database:', error);
+//       }
+// }
 
-export default dbConnection
+// export default dbConnection
